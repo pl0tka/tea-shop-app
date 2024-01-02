@@ -7,7 +7,6 @@
 /* ***** VARIABLES ***** */
 /* ------------------------------ */
 :root {
-  /* --clr-primary: #678e3e; */
   --clr-primary: #628a4d;
   --clr-primary-light: #bcd3a4;
   --clr-grey-1: #102a42;
@@ -182,9 +181,8 @@ p {
 .banner-btn:hover {
   outline-color: var(--clr-primary-light);
 }
-/* contant divider */
+/* content divider */
 .content-divider {
-  /* width: 100vw; */
   height: 0.5rem;
   background: linear-gradient(
     to left,
@@ -246,7 +244,6 @@ p {
   background: var(--clr-primary-light);
   border: 0.5rem solid var(--clr-primary);
   max-width: 35rem;
-  /* extra stuff */
   overflow: hidden;
 }
 .about-picture {
@@ -650,7 +647,3 @@ p {
     opacity: 1;
   }
 }
-
-/* ------------------------------ */
-/* ***** >---< ***** */
-/* ------------------------------ */
